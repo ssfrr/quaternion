@@ -433,7 +433,7 @@ def as_rotation_vector(q):
     -------
     rot : float array
         Output shape is q.shape+(3,).  Each vector represents the axis of
-        the rotation, with norm proportional to the angle of the rotation in
+        the rotation, with norm equal to the angle of the rotation in
         radians.
 
     """
@@ -447,7 +447,7 @@ def from_rotation_vector(rot):
     ----------
     rot : (Nx3) float array
         Each vector represents the axis of the rotation, with norm
-        proportional to the angle of the rotation in radians.
+        equal to the angle of the rotation in radians.
 
     Returns
     -------
